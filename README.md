@@ -2,10 +2,13 @@
 
 Free and legal APIs for Bangladeshi developers - weather, prayer times, cricket, football, currency, news, geography, education and more. No key needed for many, free tier for the rest.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub stars](https://img.shields.io/github/stars/istiakrahman15/bangladesh-free-apis)](https://github.com/istiakrahman15/bangladesh-free-apis/stargazers)
-[![Support Me](https://img.shields.io/badge/Support-Me-orange.svg)](https://www.supportkori.com/istiakrahman15)
+[![License: MIT](https://img.shields.io/github/license/istiakrahman15/bangladesh-free-apis?style=flat-square&color=yellow)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/network/members)
+[![APIs](https://img.shields.io/badge/APIs-104-blue?style=flat-square)](apis.json)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
+[![Last Commit](https://img.shields.io/github/last-commit/istiakrahman15/bangladesh-free-apis?style=flat-square)](https://github.com/istiakrahman15/bangladesh-free-apis/commits/main)
+[![Support Me](https://img.shields.io/badge/Support-Me-FF6B35?style=flat-square&logo=heart&logoColor=white)](https://www.supportkori.com/istiakrahman15)
 
 A curated list of free APIs that Bangladeshi developers actually need. Every entry is free to start, legal to use, and links to its official docs. No scraped APIs, no leaked keys, no paid only services.
 
@@ -148,7 +151,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [GitHub REST API](https://docs.github.com/en/rest) | Repos, users, issues and commits, public data without auth (GitHub profile app) | No | Yes | Unknown | Free, 60 calls per hour without auth, more with auth |
 | [Httpbin](https://httpbin.org/) | Simple HTTP request and response service for testing (API testing) | No | Yes | Yes | Free |
 | [ReqRes](https://reqres.in/) | Hosted REST API ready to respond to AJAX requests (frontend testing) | No | Yes | Unknown | Free |
-| [DummyJSON](https://dummyjson.com/) | Fake REST API with products, users, posts, comments and todos (app prototyping) | No | Yes | Yes | Free |
+| [DummyJSON](https://dummyjson.com) | Fake REST API with products, users, posts, comments and todos (app prototyping) | No | Yes | Yes | Free |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for web APIs, OpenAPI specs for public APIs (find API specs) | No | Yes | Unknown | Free |
 | [Cat Facts](https://catfact.ninja/) | Random cat facts as JSON (fun test data) | No | Yes | Yes | Free |
 
