@@ -5,7 +5,7 @@ Free and legal APIs for Bangladeshi developers - weather, prayer times, cricket,
 [![License: MIT](https://img.shields.io/github/license/istiakrahman15/bangladesh-free-apis?style=flat-square&color=yellow)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/network/members)
-[![APIs](https://img.shields.io/badge/APIs-104-blue?style=flat-square)](apis.json)
+[![APIs](https://img.shields.io/badge/APIs-123-blue?style=flat-square)](apis.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/istiakrahman15/bangladesh-free-apis?style=flat-square)](https://github.com/istiakrahman15/bangladesh-free-apis/commits/main)
 [![Support Me](https://img.shields.io/badge/Support-Me-FF6B35?style=flat-square&logo=heart&logoColor=white)](https://www.supportkori.com/istiakrahman15)
@@ -42,6 +42,11 @@ A curated list of free APIs that Bangladeshi developers actually need. Every ent
 - [Blockchain and Package Registries](#22-blockchain-and-package-registries)
 - [Search, Transport and Food](#23-search-transport-and-food)
 - [Government Open Data and Entertainment](#24-government-open-data-and-entertainment)
+- [Streaming and Video](#25-streaming-and-video)
+- [Music Streaming and Podcasts](#26-music-streaming-and-podcasts)
+- [Movies and TV](#27-movies-and-tv)
+- [Live TV and Radio](#28-live-tv-and-radio)
+- [Messaging, Productivity and Monitoring](#29-messaging-productivity-and-monitoring)
 - [How to use in 1 minute](#how-to-use-in-1-minute)
 - [What is NOT in this list](#what-is-not-in-this-list)
 - [Support this project](#support-this-project)
@@ -64,10 +69,9 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [BDAPIs](https://bdapis.com) | 8 divisions, 64 districts, upazilas, thanas and post codes, in English and Bangla (address dropdowns) | No | Yes | Unknown | Free, 100 requests per 15 minutes per IP |
 | [Desh API](https://deshapi.riadul.com) | Geo, banks and branches, universities, income tax, gold price, Bangla tools, prayer times, metro and railway (one API for everyday Bangladesh data) | No | Yes | Unknown | Free, no signup, no key |
 | [BD Open API](https://bdopenapi.vercel.app) | Divisions, districts, upazilas and unions, in English and Bangla (delivery and address forms) | No | Yes | Unknown | Free, no key, personal and commercial use |
-| [data.gov.bd](https://www.data.gov.bd) | Bangladesh government open data portal, datasets on education, health, economy and more (open data apps) | No | Yes | Unknown | Free, open government data |
+| [data.gov.bd](https://www.data.gov.bd) | Bangladesh government open data portal, datasets on education, health, economy, Bangladesh Bank forex rates and BBS statistics and more (open data apps) | No | Yes | Unknown | Free, open government data |
 | [BD Open Data](https://www.bdopendata.com) | Bangladesh economic data from 29 sources, BBS, Bangladesh Bank, NBR and more, CC BY 4.0 (research and dashboards) | No | Yes | Unknown | Free, no registration, no key |
 | [mcp-bangladesh](https://mcp.shohag.one) | 8 live government datasets in one free endpoint: DGHS dengue, river flood levels, BPDB power, district weather, AQI, Bangladesh Bank forex and inflation (AI apps and dashboards) | No | Yes | Unknown | Free, zero auth |
-| [Bangladesh Bank and BBS data](https://www.data.gov.bd) | Bangladesh Bank forex rates and Bangladesh Bureau of Statistics data, published through the open data portal and BD Open Data, not as a separate key API (BDT rates and stats) | No | Yes | Unknown | Free, open data |
 
 ## 2. Weather
 
@@ -151,7 +155,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [GitHub REST API](https://docs.github.com/en/rest) | Repos, users, issues and commits, public data without auth (GitHub profile app) | No | Yes | Unknown | Free, 60 calls per hour without auth, more with auth |
 | [Httpbin](https://httpbin.org/) | Simple HTTP request and response service for testing (API testing) | No | Yes | Yes | Free |
 | [ReqRes](https://reqres.in/) | Hosted REST API ready to respond to AJAX requests (frontend testing) | No | Yes | Unknown | Free |
-| [DummyJSON](https://dummyjson.com) | Fake REST API with products, users, posts, comments and todos (app prototyping) | No | Yes | Yes | Free |
+| [DummyJSON](https://dummyjson.com/) | Fake REST API with products, users, posts, comments and todos (app prototyping) | No | Yes | Yes | Free |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for web APIs, OpenAPI specs for public APIs (find API specs) | No | Yes | Unknown | Free |
 | [Cat Facts](https://catfact.ninja/) | Random cat facts as JSON (fun test data) | No | Yes | Yes | Free |
 
@@ -281,6 +285,51 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [Data.gov](https://api.data.gov/) | US government open data: datasets from many federal agencies (open data dashboards) | apiKey | Yes | Unknown | Free tier after signup, personal key: 1,000 requests per hour |
 | [TVmaze](https://www.tvmaze.com/api) | TV show, episode and schedule data with images (TV tracker app) | No | Yes | Yes | Free, no key, 20 requests per 10 seconds per IP |
 
+## 25. Streaming and Video
+
+| API | Description | Auth | HTTPS | CORS | Free tier |
+| --- | --- | --- | --- | --- | --- |
+| [YouTube Data API v3](https://developers.google.com/youtube/v3) | Search, list and manage YouTube videos, channels, playlists and comments, upload needs OAuth (video app) | apiKey | Yes | Unknown | Free, 10,000 quota units per day, search.list 100 per day |
+| [Twitch API](https://dev.twitch.tv/docs/api) | Live streams, channels, clips, chat and viewer data for Twitch (streaming app) | OAuth | Yes | Unknown | Free, about 800 points per minute |
+| [Vimeo API](https://developer.vimeo.com) | Upload, manage and play Vimeo videos, albums and live events (video app) | OAuth | Yes | Unknown | Free to call on every plan including Free, direct file links need Professional or higher |
+| [Dailymotion API](https://developer.dailymotion.com/) | Search, upload and manage Dailymotion videos and channels (video app) | OAuth | Yes | Unknown | Free, public reads need no key, user data and writes need OAuth |
+
+## 26. Music Streaming and Podcasts
+
+| API | Description | Auth | HTTPS | CORS | Free tier |
+| --- | --- | --- | --- | --- | --- |
+| [Spotify Web API](https://developer.spotify.com/documentation/web-api) | Spotify tracks, albums, artists, playlists and playback, 30 second previews (music player app) | OAuth | Yes | Unknown | Free to call, development mode limited to 5 allowlisted users and app owner must hold Premium |
+| [Podcast Index API](https://podcastindex.org) | Search and browse 4 million plus podcasts, episodes, categories and transcripts (podcast app) | apiKey | Yes | Unknown | Free, key and secret after registration, free for any purpose including commercial |
+| [Listen Notes API](https://www.listennotes.com/api/) | Search podcasts and episodes by topic, person or show, with transcripts (podcast search app) | apiKey | Yes | Unknown | Free, 150 requests per month |
+| [iTunes Search API](https://itunes.apple.com/search) | Search Apple music, podcasts, movies, TV shows and apps, with 30 second previews (media search app) | No | Yes | Unknown | Free, no key, about 20 requests per minute per IP |
+| [Last.fm API](https://www.last.fm/api) | Artist, album and track info, charts, tags and user listening history (music app) | apiKey | Yes | Unknown | Free for non-commercial use, free key after registration, about 5 requests per second |
+
+## 27. Movies and TV
+
+| API | Description | Auth | HTTPS | CORS | Free tier |
+| --- | --- | --- | --- | --- | --- |
+| [TMDB API](https://developer.themoviedb.org/docs) | Movie and TV show details, posters, cast, ratings and trending lists (movie app) | apiKey | Yes | Unknown | Free for non-commercial use with attribution, about 40 requests per second, commercial use needs paid plan |
+| [Trakt API](https://developer.trakt.tv) | Movie and TV tracking, watchlists, ratings and what is trending (movie tracker app) | OAuth | Yes | Unknown | Free, public data needs only a free Client ID, user data needs OAuth |
+| [OMDb API](https://www.omdbapi.com) | Movie and TV details, posters, ratings and plot summaries from IMDb data (movie info app) | apiKey | Yes | Unknown | Free key, 1,000 requests per day, personal and non-commercial use |
+
+## 28. Live TV and Radio
+
+| API | Description | Auth | HTTPS | CORS | Free tier |
+| --- | --- | --- | --- | --- | --- |
+| [iptv-org API](https://iptv-org.github.io/api/) | Free to air TV channels, streams, logos and EPG guides for thousands of channels worldwide, public domain data (IPTV app) | No | Yes | Unknown | Free, no key, no account, free to air channels only |
+| [Radio Browser API](https://api.radio-browser.info) | Community directory of internet radio stations worldwide, search by country, language or tag (radio app) | No | Yes | Unknown | Free, no key, CORS reports conflict, call from server if browser blocks it |
+
+## 29. Messaging, Productivity and Monitoring
+
+| API | Description | Auth | HTTPS | CORS | Free tier |
+| --- | --- | --- | --- | --- | --- |
+| [Telegram Bot API](https://core.telegram.org/bots/api) | Send messages, photos and files, run bots in groups and channels (Telegram bot) | apiKey | Yes | Unknown | Free, bot token from BotFather, about 30 messages per second overall, 1 per second per chat |
+| [Slack API](https://api.slack.com/) | Send messages, manage channels and build Slack bots and apps (team chat app) | OAuth | Yes | Unknown | Free to call, free workspaces limited to 10 apps and 90 days of message history |
+| [Google Calendar API](https://developers.google.com/workspace/calendar) | Read and create calendar events, reminders and schedules (calendar app) | OAuth | Yes | Unknown | Free for standard use, up to 1,000,000 requests per day per project |
+| [Google Drive API](https://developers.google.com/workspace/drive/api/guides/limits) | Upload, list and share files in Google Drive, read and write Docs and Sheets (file and docs app) | OAuth | Yes | Unknown | Free for standard use, 1,000,000 quota units per minute per project |
+| [UptimeRobot API](https://uptimerobot.com/api/) | Monitor websites and APIs, get uptime, response time and downtime alerts (uptime monitor) | apiKey | Yes | Unknown | Free plan, 50 monitors, 5 minute checks, API included on Free plan |
+| [OCR.space API](https://ocr.space) | Read text from images and PDFs with OCR, supports many languages (scan and extract text app) | apiKey | Yes | Unknown | Free, 25,000 requests per month, 1 MB file limit, 500 per day per IP |
+
 ## How to use in 1 minute
 
 ### Dhaka weather with Open-Meteo, no key
@@ -342,7 +391,7 @@ This list grows when Bangladeshi developers add what they use. See [CONTRIBUTING
 
 ## Search keywords
 
-bangladesh, bangla, free api, public api, bd developer, bangladeshi developers, dhaka weather, prayer time bangladesh, cricket api, football api, bdt currency, currency exchange, open data, bangladesh open data, developer tools, api list, awesome list, rest api, json api, free apis, divisions districts upazilas, bangladesh geography, islamic api, quran api, news api bangladesh, jobs api, education api, auth api, supabase auth, firebase auth, email api, resend, file storage api, cloudinary, url shortener, qr code api, ip api, timezone api, translation api, mapbox, openrouteservice, anime api, game api, music api, space api, earthquake api, etherscan, npm api, pypi api, flight tracker api, recipe api, open food facts, tv api
+bangladesh, bangla, free api, public api, bd developer, bangladeshi developers, dhaka weather, prayer time bangladesh, cricket api, football api, bdt currency, currency exchange, open data, bangladesh open data, developer tools, api list, awesome list, rest api, json api, free apis, divisions districts upazilas, bangladesh geography, islamic api, quran api, news api bangladesh, jobs api, education api, auth api, supabase auth, firebase auth, email api, resend, file storage api, cloudinary, url shortener, qr code api, ip api, timezone api, translation api, mapbox, openrouteservice, anime api, game api, music api, space api, earthquake api, etherscan, npm api, pypi api, flight tracker api, recipe api, open food facts, tv api, youtube api, twitch api, vimeo api, dailymotion api, spotify api, podcast api, listen notes, itunes api, last.fm api, tmdb api, trakt api, omdb api, iptv api, radio browser, telegram bot api, slack api, google calendar api, google drive api, uptimerobot, ocr api, streaming api, live tv api
 
 ## License
 
