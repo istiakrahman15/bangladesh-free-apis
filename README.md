@@ -9,6 +9,7 @@ Free and legal APIs for Bangladeshi developers - weather, prayer times, cricket,
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/istiakrahman15/bangladesh-free-apis?style=flat-square)](https://github.com/istiakrahman15/bangladesh-free-apis/commits/main)
 [![Support Me](https://img.shields.io/badge/Support-Me-FF6B35?style=flat-square&logo=heart&logoColor=white)](https://www.supportkori.com/istiakrahman15)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=istiakrahman15.bangladesh-free-apis)](https://github.com/istiakrahman15/bangladesh-free-apis)
 
 A curated list of free APIs that Bangladeshi developers actually need. Every entry is free to start, legal to use, and links to its official docs. No scraped APIs, no leaked keys, no paid only services.
 
@@ -50,6 +51,7 @@ A curated list of free APIs that Bangladeshi developers actually need. Every ent
 - [How to use in 1 minute](#how-to-use-in-1-minute)
 - [What is NOT in this list](#what-is-not-in-this-list)
 - [Support this project](#support-this-project)
+- [Our Sponsors](#our-sponsors)
 - [Contribute](#contribute)
 - [Search keywords](#search-keywords)
 
@@ -379,6 +381,22 @@ No money? No problem. You can still help me a lot, for free:
 - Add 1 API you use, so the next developer finds it here too.
 
 Thank you for using this list, and thank you for believing in a developer from Bangladesh who is building with just a phone and a dream.
+
+## Our Sponsors
+
+Thank you to everyone who supports this list. Your name will be shown here, so other developers can see who helped keep this list free for Bangladesh.
+
+| Sponsor | Support | Since |
+| --- | --- | --- |
+| *No sponsors yet. Be the first one.* | - | - |
+
+### Become a sponsor
+
+- Sponsor me on [SupportKori](https://www.supportkori.com/istiakrahman15) or click the **Sponsor** button at the top of this repo.
+- After you sponsor, let me know your name and link, and I will add you to the table above.
+- Only your name and link will be shown here, nothing else.
+
+Every sponsor, big or small, helps me keep building free tools for Bangladeshi developers.
 
 ## Contribute
 
