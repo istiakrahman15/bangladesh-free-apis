@@ -5,7 +5,7 @@ Free and legal APIs for Bangladeshi developers - weather, prayer times, cricket,
 [![License: MIT](https://img.shields.io/github/license/istiakrahman15/bangladesh-free-apis?style=flat-square&color=yellow)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/istiakrahman15/bangladesh-free-apis?style=flat-square&logo=github)](https://github.com/istiakrahman15/bangladesh-free-apis/network/members)
-[![APIs](https://img.shields.io/badge/APIs-123-blue?style=flat-square)](apis.json)
+[![APIs](https://img.shields.io/badge/APIs-129-blue?style=flat-square)](apis.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/istiakrahman15/bangladesh-free-apis?style=flat-square)](https://github.com/istiakrahman15/bangladesh-free-apis/commits/main)
 [![Support Me](https://img.shields.io/badge/Support-Me-FF6B35?style=flat-square&logo=heart&logoColor=white)](https://www.supportkori.com/istiakrahman15)
@@ -68,6 +68,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 
 | API | Description | Auth | HTTPS | CORS | Free tier |
 | --- | --- | --- | --- | --- | --- |
+| [BD-GeoAPI](https://bdgeoapi.rajumia.com/) | Division, district, upazila and union data for Bangladesh address forms (delivery and eCommerce) | No | Yes | Unknown | Free, personal and commercial use |
 | [BDAPIs](https://bdapis.com) | 8 divisions, 64 districts, upazilas, thanas and post codes, in English and Bangla (address dropdowns) | No | Yes | Unknown | Free, 100 requests per 15 minutes per IP |
 | [Desh API](https://deshapi.riadul.com) | Geo, banks and branches, universities, income tax, gold price, Bangla tools, prayer times, metro and railway (one API for everyday Bangladesh data) | No | Yes | Unknown | Free, no signup, no key |
 | [BD Open API](https://bdopenapi.vercel.app) | Divisions, districts, upazilas and unions, in English and Bangla (delivery and address forms) | No | Yes | Unknown | Free, no key, personal and commercial use |
@@ -154,6 +155,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | API | Description | Auth | HTTPS | CORS | Free tier |
 | --- | --- | --- | --- | --- | --- |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com) | Fake REST API for testing and prototyping: posts, comments, todos and users (frontend practice) | No | Yes | Yes | Free |
+| [Random User Generator](https://randomuser.me/) | Realistic fake user profiles with names, emails, photos and addresses for testing (mock data for prototypes) | No | Yes | Unknown | Free, no key, fair use |
 | [GitHub REST API](https://docs.github.com/en/rest) | Repos, users, issues and commits, public data without auth (GitHub profile app) | No | Yes | Unknown | Free, 60 calls per hour without auth, more with auth |
 | [Httpbin](https://httpbin.org/) | Simple HTTP request and response service for testing (API testing) | No | Yes | Yes | Free |
 | [ReqRes](https://reqres.in/) | Hosted REST API ready to respond to AJAX requests (frontend testing) | No | Yes | Unknown | Free |
@@ -170,6 +172,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [NASA Open API](https://api.nasa.gov) | NASA data including imagery, astronomy picture of the day and more (space app) | apiKey | Yes | No | Free tier after signup, demo key available |
 | [Lorem Picsum](https://picsum.photos/) | Placeholder images from Unsplash (design mockups) | No | Yes | Unknown | Free |
 | [PokeAPI](https://pokeapi.co) | Pokemon species, moves and stats (fun game app) | No | Yes | Unknown | Free, fair use, cache responses |
+| [The Met Collection API](https://metmuseum.github.io/) | 470,000 plus artworks, search and object records with public-domain images (art and gallery app) | No | Yes | Yes | Free, no key, CC0, 80 requests per second |
 
 ## 11. AI and Machine Learning
 
@@ -227,6 +230,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | [ip-api.com](http://ip-api.com/) | IP geolocation: country, city, timezone and ISP, no key (detect visitor location) | No | No | Yes | Free: 45 requests per minute, non-commercial only, HTTPS is paid only |
 | [ipinfo.io](https://ipinfo.io/json) | IP address details: location, ASN and company, free token (visitor info) | apiKey | Yes | Yes | Free Lite: unlimited country and ASN lookups with a free token |
 | [ipapi.co](https://ipapi.co/) | IP geolocation API with location and currency data (visitor country and currency) | No | Yes | Yes | Free trial: 1,000 requests per 24 hours, 30,000 per month |
+| [ipify](https://www.ipify.org/) | Your public IP address as plain text or JSON, IPv4 and IPv6 (network tools and scripts) | No | Yes | Yes | Free, no key, no stated limit |
 | [TimezoneDB](https://timezonedb.com/api) | Timezone and time conversion by zone or coordinates (event times in Dhaka time) | apiKey | Yes | Unknown | Free for personal and non-commercial use, 1 request per second |
 
 ## 18. Translation and Documents
@@ -260,6 +264,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 | API | Description | Auth | HTTPS | CORS | Free tier |
 | --- | --- | --- | --- | --- | --- |
 | [Launch Library 2](https://ll.thespacedevs.com/2.3.0/) | Rocket launches, missions and spaceflight events (space launch tracker) | No | Yes | Unknown | Free, no key, 15 requests per hour |
+| [OpenAQ](https://docs.openaq.org/) | Air quality measurements PM2.5, PM10, NO2, O3 and more from government monitors worldwide, including Dhaka (air quality app) | apiKey | Yes | Unknown | Free key after signup, 60 calls per minute, 2,000 per hour |
 | [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/fdsnws/event/1/) | Real time and historical earthquake data worldwide (earthquake alerts) | No | Yes | Unknown | Free, no key, 20,000 results per query maximum |
 | [OpenFDA](https://open.fda.gov) | US FDA data on drugs, devices and food recalls (health research app) | apiKey | Yes | Unknown | Free, no key: 1,000 requests per day, free key: 120,000 per day |
 
@@ -276,6 +281,7 @@ Start here if you are building for Bangladesh. These APIs give you divisions, di
 
 | API | Description | Auth | HTTPS | CORS | Free tier |
 | --- | --- | --- | --- | --- | --- |
+| [Open Brewery DB](https://www.openbrewerydb.org/) | 40,000 plus breweries, cideries, brewpubs and bottle shops worldwide, search by city, name and type (brewery finder) | No | Yes | Yes | Free, no key |
 | [OpenSky Network](https://opensky-network.org/apidoc/index.html) | Live flight tracking and flight data, non-commercial (flight tracker app) | OAuth | Yes | No | Free, non-commercial only, 400 credits per day anonymous, 4,000 registered |
 | [TheMealDB](https://www.themealdb.com/api.php) | Meal recipes, ingredients and food categories (recipe app) | apiKey | Yes | Yes | Free test key 1 for development and education |
 | [Open Food Facts](https://openfoodfacts.github.io/openfoodfacts-server/api/) | Open food product database with nutrition and ingredients (food scanner app) | No | Yes | Yes | Free, no key, 15 product reads per minute, 10 searches per minute per IP |

@@ -69,6 +69,17 @@
     {
       "auth": "No",
       "bangladesh_relevant": true,
+      "category": "Bangladesh First",
+      "cors": "Unknown",
+      "description": "Division, district, upazila and union data for Bangladesh address forms (delivery and eCommerce)",
+      "free_tier": "Free, personal and commercial use",
+      "https": true,
+      "name": "BD-GeoAPI",
+      "url": "https://bdgeoapi.rajumia.com/"
+    },
+    {
+      "auth": "No",
+      "bangladesh_relevant": true,
       "category": "Weather",
       "cors": "Yes",
       "description": "Current weather and 16 day forecast by latitude and longitude, no key (Dhaka weather app)",
@@ -573,6 +584,17 @@
       "url": "https://catfact.ninja/"
     },
     {
+      "auth": "No",
+      "bangladesh_relevant": false,
+      "category": "Development and Testing",
+      "cors": "Unknown",
+      "description": "Realistic fake user profiles with names, emails, photos and addresses for testing (mock data for prototypes)",
+      "free_tier": "Free, no key, fair use",
+      "https": true,
+      "name": "Random User Generator",
+      "url": "https://randomuser.me/"
+    },
+    {
       "auth": "OAuth",
       "bangladesh_relevant": false,
       "category": "Images and Media",
@@ -626,6 +648,17 @@
       "https": true,
       "name": "PokeAPI",
       "url": "https://pokeapi.co"
+    },
+    {
+      "auth": "No",
+      "bangladesh_relevant": false,
+      "category": "Images and Media",
+      "cors": "Yes",
+      "description": "470,000 plus artworks, search and object records with public-domain images (art and gallery app)",
+      "free_tier": "Free, no key, CC0, 80 requests per second",
+      "https": true,
+      "name": "The Met Collection API",
+      "url": "https://metmuseum.github.io/"
     },
     {
       "auth": "apiKey",
@@ -883,6 +916,17 @@
     {
       "auth": "No",
       "bangladesh_relevant": false,
+      "category": "IP, Geolocation and Time",
+      "cors": "Yes",
+      "description": "Your public IP address as plain text or JSON, IPv4 and IPv6 (network tools and scripts)",
+      "free_tier": "Free, no key, no stated limit",
+      "https": true,
+      "name": "ipify",
+      "url": "https://www.ipify.org/"
+    },
+    {
+      "auth": "No",
+      "bangladesh_relevant": false,
       "category": "Translation and Documents",
       "cors": "Yes",
       "description": "Translation memory API for English, Bangla and many languages (translate app text)",
@@ -1036,6 +1080,17 @@
     },
     {
       "auth": "apiKey",
+      "bangladesh_relevant": true,
+      "category": "Space, Science and Health",
+      "cors": "Unknown",
+      "description": "Air quality measurements PM2.5, PM10, NO2, O3 and more from government monitors worldwide, including Dhaka (air quality app)",
+      "free_tier": "Free key after signup, 60 calls per minute, 2,000 per hour",
+      "https": true,
+      "name": "OpenAQ",
+      "url": "https://docs.openaq.org/"
+    },
+    {
+      "auth": "apiKey",
       "bangladesh_relevant": false,
       "category": "Blockchain and Package Registries",
       "cors": "Yes",
@@ -1110,6 +1165,17 @@
       "https": true,
       "name": "Open Food Facts",
       "url": "https://openfoodfacts.github.io/openfoodfacts-server/api/"
+    },
+    {
+      "auth": "No",
+      "bangladesh_relevant": false,
+      "category": "Search, Transport and Food",
+      "cors": "Yes",
+      "description": "40,000 plus breweries, cideries, brewpubs and bottle shops worldwide, search by city, name and type (brewery finder)",
+      "free_tier": "Free, no key",
+      "https": true,
+      "name": "Open Brewery DB",
+      "url": "https://www.openbrewerydb.org/"
     },
     {
       "auth": "apiKey",
@@ -1356,5 +1422,5 @@
   ],
   "description": "Free and legal APIs for Bangladeshi developers - weather, prayer times, cricket, football, currency, news, geography, education and more. No key needed for many, free tier for the rest.",
   "name": "bangladesh-free-apis",
-  "total": 123
+  "total": 129
 }
